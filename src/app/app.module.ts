@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CoursesComponent } from './courses/courses.component';
 import { TutorsComponent } from './tutors/tutors.component';
 import { TutsComponent } from './tuts/tuts.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 var rules = [
   {
@@ -36,7 +37,8 @@ var rules = [
     HomepageComponent,
     CoursesComponent,
     TutorsComponent,
-    TutsComponent
+    TutsComponent,
+    NavbarComponent
   ],
   imports: [BrowserModule, RouterModule, RouterModule.forRoot(rules)],
   providers: [],
