@@ -52,28 +52,34 @@
             <div class="col-md-6">
               <div class="header">
                 <img
-                  src="../../assets/images/homepage/Menorah LMS.png"
+                  src="../../assets/images/modal/Menorah LMS.png"
                   alt="LMS logo"
                 />
                 <h4 class="modal-title welcometxt">
                   Welcome Back, Please Login to your Account
                 </h4>
               </div>
-              <img
-                src="../../assets/images/modal/Facebbok.png"
-                alt="Facebook Image"
-              />
-              &nbsp;&nbsp;
-              <img
-                src="../../assets/images/modal/Xing.png"
-                alt="Xing Image"
-              /><br />
-              <span>Email Address*</span><br /><input type="email" name="" />
+              <div class="">
+                <button class="loginbtns fbtn">
+                  <img src="../../assets/images/modal/flogo.png" alt="" /> Login
+                  with Facebook
+                </button>
+                <button class="loginbtns xbtn">
+                  <img src="../../assets/images/modal/xlogo.png" alt="" /> Login
+                  with Xing
+                </button>
+              </div>
               <br />
-              <span>Password*</span><br />
-              <input type="password" name="" /> <br />
+              <label class="txt">Email Address*</label><br /><input
+                class="inputbtm"
+                type="email"
+                name=""
+              />
+              <br />
+              <label class="txt">Password*</label><br />
+              <input class="inputbtm" type="password" name="" /> <br />
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
+                <label class="form-check-label txt2">
                   <input
                     class="form-check-input"
                     type="checkbox"
@@ -83,31 +89,41 @@
                   Remember Me
                 </label>
               </div>
-
-              <button
-                type="button"
-                class="btn"
+              <a
+                href=""
+                style="justify-content: right;"
                 data-toggle="modal"
                 data-target="#ForgotPasswordModal"
               >
-                Forgot Password
-              </button>
+                <span class="txt2">Forgot Password</span>
+              </a>
+
               <br />
-              <button class="btn btn1">
+              <br />
+              <button class="btn redbtn btns">
                 Log In <span class="badge badge-primary"></span>
               </button>
               &nbsp;
               <button
                 type="button"
-                class="btn btn2 btn-primary"
+                class="btn btns btn2 btnborder"
                 data-toggle="modal"
                 data-target="#SignUpModal"
+                data-dismiss="modal"
               >
                 Sign Up
               </button>
               <br />
+              <br />
+
               <div class="footer">
-                <p>By Signing Up, You agree to our Tearms and Conditions</p>
+                <p class="txt" style="font-style: italic;">
+                  By Signing Up, You agree to Menorah
+                  <span style="color: #f94f4f;">LMS</span>
+                  <span style="color:#5f7adb ;"></span>
+                    Terms and Conditions & Privacy Policy</span
+                  >
+                </p>
               </div>
             </div>
             <div class="col-md-6">
